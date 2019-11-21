@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+
+body{
+    margin: 0;
+}
+
+.barra{
+    width: 100%;
+    max-width: 1375px;
+    height: 30px;
+    background-size: cover;    
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.menu{
+    width: 100%;
+    max-width: 800px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center ;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+}
+
+.home{
+    text-align: center;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.localizacao{
+    text-align: center;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.about{
+    text-align: center;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.join{
+    text-align: center;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;    
+    text-decoration: underline;
+}
+
+.tela_1{
+    background-image:url(images/2.jpeg);
+    margin-left: auto;
+    margin-right: auto;
+    height: 650px;
+    width: auto;
+    max-width: 100%;
+    background-size: cover;
+
+}
+
+.text{
+    color: black;
+}
+
+a:link, a:visited {
+    color:black;
+  }
+  
+  a:hover, a:active {
+    color:green;
+  }

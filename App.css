@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+body{
+    background: black url('images/5.jpg'); /*DEIXA O FUNDO PRETO E COLOCA A 3.JPEG*/
+    background-size: cover;/*A IMAGEM COBRIRA A TELA*/
+    -webkit-font-smoothing: antialiased !important;/*DEIXA A FONTE DETALHADA*/
+}
+
+body, input, button{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 14px;;
+}
+
+.container{
+    margin:80px auto 0;
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+
+.content{
+    width: 100%;
+    background: #ffffff;
+    margin-top: 30px;
+    border-radius: 4px;
+    padding: 30px;
+}
+
+.content > p{
+    font-size:22px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.content form{
+    display: flex;
+    flex-direction: column;
+}
+
+.content form label{
+    font-size: 14px;
+    color: #444;
+    font-weight: bold;
+    margin-bottom: 8x;
+}
