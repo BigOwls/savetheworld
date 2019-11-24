@@ -71,6 +71,17 @@
     margin-top: 50px;
 }
 
+.image2{
+    background-color: gray;
+    background-image: url(images/5.jpg);    
+
+    width: 560px;
+    height: 640px;
+    object-fit: cover;
+    background-size: cover;
+    background:scroll; 
+}
+
 a:link, a:visited {
     color:black;
   }
