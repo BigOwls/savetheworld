@@ -52,7 +52,7 @@
 .welcome{
     font-family: Roboto,Arial, Helvetica, sans-serif;
     font-size:60px;
-    margin-top: 250px;
+    margin-top: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -74,12 +74,43 @@
 .image2{
     background-color: gray;
     background-image: url(images/5.jpg);    
-
-    width: 560px;
-    height: 640px;
-    object-fit: cover;
+    background-repeat: no-repeat;
     background-size: cover;
-    background:scroll; 
+    background-position: center;
+    width: 100%;
+    max-width: 500px;
+    height: 540px;  
+        
+    margin: auto;
+    margin-left: 400px;
+
+
+    
+    
+}
+
+.sobre{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 440px;
+    background-color: pink;
+    
+    margin:auto;
+    margin-top: 110px;
+    margin-left: 120px;
+    position: absolute;
+}
+
+.teste{
+    height: 640px;
+    width: 1000px;
+    
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 100px;
 }
 
 a:link, a:visited {
