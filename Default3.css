@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+.auto{
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+}
+
+.name{
+    font-family: Roboto,Arial, Helvetica, sans-serif;
+    color:black;
+    font-size: 34px;
+    text-align: center;
+    margin-top: 60px;
+    
+}
+.barra{
+    width: 800px;
+    height: 3px;
+    background-color:black ;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin:auto;
+
+    width: 100%;
+    max-width: 400px;
+    height: 30px;
+
+}
+.menuInicio {
+    font-family: Roboto,Arial, Helvetica, sans-serif;
+    display: flex;    
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    width: 40px;
+    height: 30px;
+    font-size: 15px;
+}
+.menuDescarte {
+    font-family: Roboto,Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    width: 58px;
+    height: 30px;
+    font-size: 15px;
+}
+
+a:link, a:visited {
+    color:black;
+  }
+  
+  a:hover, a:active {
+    color:green;
+    font-weight: bold;
+  }

@@ -104,13 +104,14 @@
 .sobre{
     display: flex;
     flex-direction: column;
-    width: 350px;
+    width: 400px;
     height: 440px;
     
     margin:auto;
     margin-top: 110px;
     margin-left: 120px;
     position: absolute;
+    background-color:rgb(236, 236, 234) ;
 }
 
 .text_S{
@@ -119,17 +120,18 @@
     width: 110px;
     height: 50px;
     margin-left: 50px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .text_Ss{
     font-family: Roboto,Arial, Helvetica, sans-serif;
-    font-size: 40px;
-    width: 270px;
+    font-size: 18px;
+    line-height: 30px;
+    font-style: italic;
+    width: 350px;
     height: 310px;
     margin-left: 50px;
     margin-top: 30px;
-    background-color: aqua;
 }
 
 
