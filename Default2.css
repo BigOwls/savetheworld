@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
 
+.auto{
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+}
 
 .name{
     font-family: Roboto,Arial, Helvetica, sans-serif;
@@ -14,7 +19,7 @@
     height: 3px;
     background-color:black ;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .menu{
@@ -52,7 +57,7 @@
 .welcome{
     font-family: Roboto,Arial, Helvetica, sans-serif;
     font-size:60px;
-    margin-top: 200px;
+    margin-top: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -71,8 +76,19 @@
     margin-top: 50px;
 }
 
+.teste{
+    height: 640px;
+    width: 1000px;
+    
+
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 100px;
+}
+
 .image2{
-    background-color: gray;
+
     background-image: url(images/5.jpg);    
     background-repeat: no-repeat;
     background-size: cover;
@@ -82,11 +98,7 @@
     height: 540px;  
         
     margin: auto;
-    margin-left: 400px;
-
-
-    
-    
+    margin-left: 400px;    
 }
 
 .sobre{
@@ -94,7 +106,6 @@
     flex-direction: column;
     width: 350px;
     height: 440px;
-    background-color: pink;
     
     margin:auto;
     margin-top: 110px;
@@ -102,15 +113,70 @@
     position: absolute;
 }
 
-.teste{
-    height: 640px;
-    width: 1000px;
-    
-    background-color: gray;
+.text_S{
+    font-family: Roboto,Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    width: 110px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.text_Ss{
+    font-family: Roboto,Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    width: 270px;
+    height: 310px;
+    margin-left: 50px;
+    margin-top: 30px;
+    background-color: aqua;
+}
+
+
+
+.threeballs{
+    width: 100%;
+    max-width: 1000px;
+    height: 300px;
+    margin:auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
     display: flex;
     flex-direction: row;
+
+}
+
+.ballone{
+    background-image: url(images/6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;
+    border-radius: 200px;
+    width: 300px;
+    height: 300px;
     margin: auto;
-    margin-top: 100px;
+}
+
+.balltwo{
+    background-image: url(images/7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;
+    border-radius: 200px;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+
+.ballthree{
+    background-image: url(images/8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;
+    border-radius: 200px;
+    width: 300px;
+    height: 300px;
+    margin: auto;
 }
 
 a:link, a:visited {
